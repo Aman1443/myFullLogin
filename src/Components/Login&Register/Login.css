@@ -1,0 +1,22 @@
+form{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+form input{
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #b5bbf1;
+    padding-left: 10px;
+
+}
+form input:focus{
+    outline: 1px solid #555;
+}
